@@ -6,7 +6,6 @@ import {
   Search
 } from 'lucide-react';
 
-// Custom typed GitHub Icon to avoid lucide-react version export mismatches
 function GithubIcon({ className = "w-4 h-4" }: { className?: string }) {
   return (
     <svg className={className} fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -1134,7 +1133,7 @@ function TerminalView() {
       newHist.push({ text: 'Available commands:\n  neofetch  : System & developer summary\n  bio       : Developer background\n  projects  : List main projects\n  skills    : Skills matrix\n  contact   : Contact information\n  clear/cls : Clear shell screen' });
     } else if (input === 'neofetch') {
       newHist.push({ text: `
-  OS: Windows 11 Pro (DenisOS)
+  OS: Windows 11 Pro (DenisDevOS)
   Developer: Denis Moraru (@dev-apox)
   Location: Pordenone, Italy
   University: UniUD (Computer Science)
